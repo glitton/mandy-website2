@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/*Mandy Website CSS*/
 
 body {
     font-family: "Ovo", "Helvetica Neue",serif;
@@ -19,7 +20,6 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
     font-family: "Merriweather","Helvetica Neue",serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -35,6 +35,19 @@ hr {
     max-width: 400px;
     border-color: #999999;
 }
+
+a:link {
+    color: #E92D05; !important
+}
+a:visited {
+    color: #E92D05; !important
+}
+a:hover {
+    color: #E92D05; !important
+}
+a:active {
+    color: #E92D05; !important
+} 
 
 .brand,
 .address-bar {
