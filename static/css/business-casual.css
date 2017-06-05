@@ -67,7 +67,9 @@ a:active {
 }
 
 .img-full {
-    min-width: 100%;
+    display: block;
+    margin: auto;
+    width: 56%;
 }
 
 .brand-before,
@@ -115,14 +117,100 @@ a:active {
     margin: 0 auto 0;
 }
 
+.img-mandy {
+    height: 32%;
+    width: 27%;
+}
+
+/*Background texture for each of the boxes*/
+#nav-background {
+    background-image: url('../img/boxbackground3finallight.jpg');
+    background-position: left top;
+    background-color: #fff; 
+}
+
+#main-carousel, #article {
+    margin-bottom: 50px;
+    padding: 30px 15px 0px 15px;
+    background-image: url('../img/lightercarouselbkgnd.jpg');
+    background-position: left top;
+}
+
+#address {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    display: inherit;
+    margin: 0;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-style: italic;
+}
+
+
+#performance {
+    margin-bottom: 50px;
+    background: #fff;
+    /*background: rgba(255,255,255,0.9);*/
+    background-image: url('../img/boxbackground1finallight.jpg');
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
+#teaching {
+    margin-bottom: 50px;
+    background: #fff;
+    /*background: rgba(255,255,255,0.9);*/
+    background-image: url('../img/newteachftbkgnd.jpg');
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
+#about {
+    background-image: url('../img/boxbackground1finallight.jpg');
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-color: #fff; 
+    margin-bottom: 50px;
+}
+
+#contact {
+    margin-bottom: 50px;
+    background: #fff;
+    background-image: url('../img/boxbackground2finallight.jpg');
+    background-repeat: repeat-y;
+    background-position: left top;
+}
+
 footer {
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background-image: url('../img/newteachftbkgnd.jpg');
+
 }
 
 footer p {
     margin: 0;
-    padding: 50px 0;
+    padding: 40px 0;
+    font-size: 1.2em;
+    color: black;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+#scroll-tip {
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px 0;
+    width: 20%;
+    height: 20%;
 }
 
 @media screen and (min-width:768px) {
@@ -132,7 +220,7 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Josefin Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Merriweather" ,Helvetica,Arial,serif;
         font-size: 5em;
         font-weight: 700;
         line-height: normal;
@@ -154,7 +242,6 @@ footer p {
         padding: 0 0 40px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        text-transform: uppercase;
         font-size: 1.25em;
         font-weight: 400;
         letter-spacing: 3px;
