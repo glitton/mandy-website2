@@ -52,6 +52,15 @@ a:active {
 .brand,
 .address-bar {
     display: none;
+    font-size: ;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000; !important
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+    color: #E92D05; !important
 }
 
 .navbar-brand {
@@ -99,7 +108,7 @@ a:active {
 
 .intro-text {
     text-transform: uppercase;
-    font-size: 1.25em;
+    font-size: 1.75em;
     font-weight: 400;
     letter-spacing: 1px;
 }
@@ -115,9 +124,11 @@ a:active {
     margin: 0 auto 0;
 }
 
-.img-mandy {
-    height: 32%;
-    width: 27%;
+.side-by-side {
+    display: inline-block;
+    width: 200px;
+    height: 35px;
+    font-size: 1.25em;
 }
 
 /*Background texture for each of the boxes*/
@@ -190,8 +201,8 @@ footer {
 
 footer p {
     margin: 0;
-    padding: 40px 0;
-    font-size: 1.2em;
+    padding: 20px 0;
+    font-size: 1em;
     color: black;
 }
 
@@ -206,9 +217,9 @@ footer p {
 #scroll-tip {
     border-radius: 50%;
     margin: auto;
-    padding: 20px 0;
-    width: 20%;
-    height: 20%;
+    padding: 10px 0;
+    width: 12%;
+    height: 12%;
 }
 
 @media screen and (min-width:768px) {
@@ -240,7 +251,7 @@ footer p {
         padding: 0 0 40px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-size: 1.25em;
+        font-size: 3em;
         font-weight: 400;
         letter-spacing: 3px;
         color: #fff;
@@ -248,6 +259,7 @@ footer p {
 
     .navbar {
         border-radius: 0;
+        margin-bottom: 50px;
     }
 
     .navbar-header {
