@@ -148,6 +148,7 @@
                   <div>
                     <h3 class="title-text text-left">Video Clips</h3>
                       <div class="side-by-side">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <a href="static/videos/Mandy_AloneTogether.mp4" target="_blank">Alone Together</a>
                       </div>
                       <div class="side-by-side">
@@ -248,7 +249,7 @@
                 </div>
                 <div class="clearfix"></div>
             </div>
-        </div>
+          </div>
 
       </div>
     <!-- /.container -->
@@ -275,6 +276,40 @@
     title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
     <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
+
+    <!-- Video Modals -->
+    <!-- Alone Together Video-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal close-youtube" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Alone Together</h2>
+                            <hr class="star-primary">
+                              <iframe class='you-tube' width="560" height="315" src="static/videos/Mandy_AloneTogether.mp4" frameborder="0" allowfullscreen></iframe>
+                              <p>PAWS Finder is a full stack web application that enables users to find adoptable dogs and shelter information.
+                                <ul class="list-inline item-details">
+                                    <li>Backend: Python, PostgreSQL, SQLAlchemy, Flask</li>
+                                    <li>Frontend: Jinja, Bootstrap, HTML5, CSS3, Javascript (jQuery, AJAX)</li>
+                                    <li>APIs: Petfinder, Google Maps, Zipcode</li>
+                                </ul>     
+                            <ul class="list-inline item-details">
+                                <button type="button" class="btn btn-default close-youtube" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Close</button>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery -->
     <script src="static/js/jquery.js"></script>
