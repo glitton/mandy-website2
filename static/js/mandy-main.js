@@ -20,6 +20,12 @@ $(document).ready(function(){
         
         $('#back-to-top').tooltip('show');
 
+     // Modals   
+    $('.launch-modal').on('click', function(e){
+        e.preventDefault();
+        $( '#' + $(this).data('modal-id') ).modal();
+    });  
+
     // Stops YouTube video when modal window is closed
     $('.close-youtube').on('click', function(){
         var video = $('.you-tube').attr('src');
@@ -27,7 +33,5 @@ $(document).ready(function(){
           $('.you-tube').attr('src', video);
         }
       )
-  });    
   
-
 });

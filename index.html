@@ -148,14 +148,19 @@
                   <div>
                     <h3 class="title-text text-left">Video Clips</h3>
                       <div class="side-by-side">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <a href="static/videos/Mandy_AloneTogether.mp4" target="_blank">Alone Together</a>
+                        <a href="#" class="launch-modal" data-modal-id="modal-video-alone">
+                          <span class="video-link-text">Alone Together</span>
+                        </a>
                       </div>
                       <div class="side-by-side">
-                        <a href="static/videos/Mandy_RainyDay.mp4" target="_blank">Here's That Rainy Day</a>
+                          <a href="#" class="launch-modal" data-modal-id="modal-video-rainy">
+                          <span class="video-link-text">Here's That Rainy Day</span>
+                        </a>
                       </div>
                       <div class="side-by-side">
-                        <a href="http://mandyflowers.com/sound_clips/ornithology.mp3" target="_blank">Third Video</a>
+                        <a href="http://mandyflowers.com/new_site_test/static/videos/alone-together.mp4" 
+                        target="_blank">New Page Video
+                        </a>
                       </div>
                   </div>
 
@@ -166,10 +171,10 @@
                         <a href="http://mandyflowers.com/sound_clips/ornithology.mp3" target="_blank">Ornithology</a>
                       </div>
                       <div class="side-by-side">
-                        <a href="http://mandyflowers.com/sound_clips/freepeace.mp3" target="_blank">Stolen Moments</a>
+                        <a href="http://mandyflowers.com/sound_clips/stolen.mp3" target="_blank">Stolen Moments</a>
                       </div>
                       <div class="side-by-side">
-                        <a href="http://mandyflowers.com/sound_clips/ornithology.mp3" target="_blank">Free Peace</a>
+                        <a href="http://mandyflowers.com/sound_clips/freepeace.mp3" target="_blank">Free Peace</a>
                       </div>
                   </div>
 
@@ -278,32 +283,43 @@
     </a>
 
     <!-- Video Modals -->
-    <!-- Alone Together Video-->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal close-youtube" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
+
+    <!-- Alone Together -->
+    <div class="modal" id="modal-video-alone" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close-youtube" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class='you-tube' width="560" height="315" src="https://www.youtube.com/embed/9cmvPP9ExfY" 
+                          frameborder="0" awebkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Alone Together</h2>
-                            <hr class="star-primary">
-                              <iframe class='you-tube' width="560" height="315" src="static/videos/Mandy_AloneTogether.mp4" frameborder="0" allowfullscreen></iframe>
-                              <p>PAWS Finder is a full stack web application that enables users to find adoptable dogs and shelter information.
-                                <ul class="list-inline item-details">
-                                    <li>Backend: Python, PostgreSQL, SQLAlchemy, Flask</li>
-                                    <li>Frontend: Jinja, Bootstrap, HTML5, CSS3, Javascript (jQuery, AJAX)</li>
-                                    <li>APIs: Petfinder, Google Maps, Zipcode</li>
-                                </ul>     
-                            <ul class="list-inline item-details">
-                                <button type="button" class="btn btn-default close-youtube" data-dismiss="modal">
-                                <i class="fa fa-times"></i> Close</button>
-                            </ul>
+        </div>
+    </div>
+
+    <!-- Rainy Day -->
+    <div class="modal" id="modal-video-rainy" tabindex="-1" role="dialog" aria-labelledby="modal-video-label">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close close-youtube" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-video">
+                        <div class="embed-responsive embed-responsive-16by9">
+                          <iframe class='you-tube' width="560" height="315" 
+                          src="http://mandyflowers.com/new_site_test/static/videos/rainy-day.mp4" 
+                          frameborder="0" awebkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -313,7 +329,6 @@
 
     <!-- jQuery -->
     <script src="static/js/jquery.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="static/js/bootstrap.min.js"></script>
     <script src="static/js/bootstrap.js"></script>
