@@ -142,10 +142,13 @@
                   <hr class="visible-xs">
                   <!-- Events Listing Here -->
                   <h3 class="title-text text-left">Upcoming Events</h3>
-                  <p>Saturdays in June: Mandy Flowers Trio, 6-9pm, jazz standards, 
-                  free admission, Burlingame Doubletree Hotel, 835 Airport Blvd 94010, (650)-344-5500</p>
-                  <p>Thursdays in June: Larry St Lezin Duo/Trio, 7-9:30pm, jazz standards, free admission, B Street and Vine, 320 S. B Street, San Mateo, 94401, (650)-347-8463</p>
-                  <br>
+                  <p><strong>Saturdays in June:</strong><br> 
+                  Mandy Flowers Trio, 6-9pm, jazz standards, free admission, <br>
+                  Burlingame Doubletree Hotel, 835 Airport Blvd 94010, (650)-344-5500</p>
+                  <p><strong>Thursdays in June:</strong><br>
+                  Larry St Lezin Duo/Trio, 7-9:30pm, jazz standards, free admission, <br>
+                  B Street and Vine, 320 S. B Street, San Mateo, 94401, (650)-347-8463</p>
+                  
                   <!-- Video Clips -->
                   <div>
                     <h3 class="title-text text-left">Video Clips</h3>
@@ -206,41 +209,43 @@
 
                     <h3 class="title-text col-md-offset-2 col-md-8 text-center">Testimonials</h3>
                       <!-- Quote Carousel -->
-                      <div id="carousel-example-generic" class="carousel slide">
-                        <!-- Indicators -->
+                      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                        <!-- Bottom Indicators -->
                         <ol class="carousel-indicators hidden-xs">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#quote-carousel" data-slide-to="1"></li>
+                            <li data-target="#quote-carousel" data-slide-to="2"></li>
                         </ol>
 
                        
-                        <!-- Carousel Slides / Quotes -->
+                        <!-- Carousel Quotes -->
                         <div class="carousel-inner">
                         
                           <!-- Quote 1 -->
                           <div class="item active">
-                            <!-- <blockquote> -->
                               <div class="row">
                                 <div class="col-sm-3 text-center">
-                                  <img class="img-circle" src="static/img/kevin-quote.jpg" style="width: 100px;height:100px;">
+                                  <img class="img-quotes" src="static/img/kevin-quote.jpg">
                                 </div>
                                 <div class="col-sm-9">
-                                  <p><i>Mandy is a fantastic teacher who will get you beyond notes and technique and get you into the business of making music and being expressive on the instrument</i></p>
-                                  <small>K.D.</small>
+                                  <blockquote>
+                                    <p><i>Mandy is a fantastic teacher who will get you beyond notes and technique and get you into the business of making music and being expressive on the instrument</i></p>
+                                    K.D.
+                                  </blockquote>
                                 </div>
                               </div>
-                            <!-- </blockquote> -->
                           </div>
                           <!-- Quote 2 -->
                           <div class="item">
                               <div class="row">
                                 <div class="col-sm-3 text-center">
-                                  <img class="img-circle" src="static/img/g-quote.jpg" style="width: 100px;height:100px;">
+                                  <img class="img-quotes" src="static/img/g-quote.jpg">
                                 </div>
                                 <div class="col-sm-9">
-                                  <p><i>Learning with Mandy has taught me the importance of trusting my ears and understanding themost important role of the bass - providing the rhythmic foundation.  As a result, the metronome is now my best friend!</i></p>
-                                  <small>G.L.</small>
+                                  <blockquote>
+                                    <p><i>Learning with Mandy has taught me the importance of trusting my ears and understanding themost important role of the bass - providing the rhythmic foundation.  As a result, the metronome is now my best friend!</i></p>
+                                    G.L.
+                                  </blockquote>
                                 </div>
                               </div>
                           </div>
@@ -248,11 +253,13 @@
                           <div class="item">
                               <div class="row">
                                 <div class="col-sm-3 text-center">
-                                  <img class="img-circle" src="static/img/katya-quote.jpg" style="width: 100px;height:100px;">
+                                  <img class="img-quotes" src="static/img/katya-quote.jpg">
                                 </div>
                                 <div class="col-sm-9">
-                                  <p><i>Mandy Flowers is a charming, educated and articulate artist and teacher. She has encouraged me to stretch out and play the entire range of my instrument.</i></p>
-                                  <small>K.P.</small>
+                                  <blockquote>
+                                    <p><i>Mandy Flowers is a charming, educated and articulate artist and teacher. She has encouraged me to stretch out and play the entire range of my instrument.</i></p>
+                                    K.P.
+                                   </blockquote> 
                                 </div>
                               </div>
                           </div>
@@ -395,12 +402,6 @@
     <!-- My JavaScript -->
     <script src="static/js/mandy-main.js"></script>
 
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
 
 </body>
 

@@ -33,5 +33,17 @@ $(document).ready(function(){
           $('.you-tube').attr('src', video);
         }
       )
+
+    // Main Carousel
+    $('.carousel').carousel({
+      interval: 5000 //changes the speed
+    })
+
+    // Quote Carousel
+    $('#quote-carousel').carousel({
+    pause: true,
+    interval: 5000,
+  });
+
   
 });
