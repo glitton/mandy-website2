@@ -34,16 +34,24 @@ $(document).ready(function(){
         }
       )
 
+    // Stops audio when modal window is closed
+    $('.close-audio').on('click', function(){
+        var audio = $('.audio-clips').attr('src');
+          $('.audio-clips').attr('src','');
+          $('.audio-clips').attr('src', audio);
+        }
+      )
+
     // Main Carousel
     $('.carousel').carousel({
       interval: 5000 //changes the speed
     })
 
-    // Quote Carousel
-    $('#quote-carousel').carousel({
-    pause: true,
-    interval: 5000,
-  });
+  //   // Quote Carousel
+  //   $('#quote-carousel').carousel({
+  //   pause: true,
+  //   interval: 8000 //changes the speed
+  // });
 
   
 });

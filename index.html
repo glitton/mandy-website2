@@ -218,8 +218,8 @@
                     <br>
 
                     <h3 class="title-text col-md-offset-2 col-md-8 text-center">Testimonials</h3>
-                      <!-- Quote Carousel -->
-                      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                    <!-- Quote Carousel change speed with data-interval--> 
+                    <div class="carousel slide" data-ride="carousel" id="quote-carousel" data-interval="10000">
                         <!-- Bottom Indicators -->
                         <ol class="carousel-indicators hidden-xs">
                             <li data-target="#quote-carousel" data-slide-to="0" class="active"></li>
@@ -252,7 +252,7 @@
                                   <img class="img-quotes" src="static/img/g-quote.jpg">
                                 </div>
                                 <div class="col-sm-9">
-                                  <blockquote id="quote2">
+                                  <blockquote>
                                     <p><q>Learning with Mandy has taught me the importance of trusting my ears and understanding the most important role of the bass - providing the rhythmic foundation.</q></p>
                                     G.L.
                                   </blockquote>
@@ -266,7 +266,7 @@
                                   <img class="img-quotes" src="static/img/katya-quote.jpg">
                                 </div>
                                 <div class="col-sm-9">
-                                  <blockquote id="quote3">
+                                  <blockquote>
                                     <p><q>Mandy Flowers is a charming, educated and articulate artist and teacher. She has encouraged me to stretch out and play the entire range of my instrument.</q></p>
                                     K.P.
                                    </blockquote> 
@@ -276,10 +276,10 @@
                         </div>
 
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <a class="left carousel-control" href="#quote-carousel" data-slide="prev">
                             <span class="icon-prev left-arrow"></span>
                         </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <a class="right carousel-control" href="#quote-carousel" data-slide="next">
                             <span class="icon-next"></span>
                         </a>
                     </div>
@@ -406,23 +406,25 @@
     <!-- Audio Modals   -->
 
     <!-- Ornithology -->
-    <div class="modal fade" id="modal-ornithology" tabindex="-1" role="dialog" aria-labelledby="ornithology-audio">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Ornithology</h4>
-          </div>
+  <div class="modal fade" id="modal-ornithology" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close close-audio" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ornithology</h4>
+        </div>    
           <div class="modal-body">
             <img src="static/img/strings.jpg"/>
+            <br>
               <ul>
+              <br>
                 <li>Mandy Flowers - Acoustic Bass</li>
                 <li>Alex Murzyn - Sax</li>
                 <li>Art Khu- Piano</li>
                 <li>Alex Aspinall- Drums</li>
               </ul>
             <audio controls>
-              <source src="http://mandyflowers.com/sound_clips/ornithology.mp3" type="audio/mpeg" />
+              <source class="audio-clips" src="http://mandyflowers.com/sound_clips/ornithology.mp3" type="audio/mpeg" />
               Your browser does not support the audio tag.
             </audio>            
           </div>

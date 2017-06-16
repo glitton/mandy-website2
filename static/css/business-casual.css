@@ -224,17 +224,6 @@ blockquote {
     letter-spacing: 1px;
 }
 
-#quote2 {
-    font-family: 'Sue Ellen Francisco', cursive;
-    letter-spacing: 1px;
-    font-size: 1.35em;
-}
-
-#quote3 {
-    font-family: 'Quintessential', cursive;
-    letter-spacing: 1px;
-    font-size: 1.15em;
-}
 
 #quote-carousel {
   padding: 0 10px 30px 10px;
@@ -369,24 +358,71 @@ footer p {
     padding: 0 25px 25px 25px;
 }
  
-.modal-header {
+/*.modal-header {
     padding: 25px 25px 15px 25px;
     text-align: right;
-}
+}*/
  
 .modal-header, .modal-footer {
     border: 0;
+    width:100px;
+    height:100px;
 }
  
 .modal-header .close {
     float: none;
     margin: 0;
-    font-size: 36px;
+    font-size: 24px;
     color: #fff;
     font-weight: 300;
     text-shadow: none;
     opacity: 1;
 }
+
+/*Audio modals*/
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background-image: url('../img/newteachftbkgnd.jpg');
+    background-repeat: repeat-y;
+    background-position: left top;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+/*.modal-body {
+    padding: 0 25px 25px 25px;
+    
+}*/
+ 
+/*.modal-body {
+   background-image: url('../img/lightercarouselbkgnd.jpg');
+}*/
+ 
+/*.modal-header, .modal-footer {
+    border: 0;
+    text-align: center;
+}*/
+ 
+.modal-header .close {
+    float: right;
+    margin: 0;
+    font-size: 36px;
+    color: #000;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.modal-sm {
+  width: 350px;
+  margin: auto;
+}
+
 
 /*Contact center portion*/
 .contact-center {
