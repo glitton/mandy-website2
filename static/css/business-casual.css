@@ -25,7 +25,8 @@ h6 {
     letter-spacing: 1px;
 }
 
-p {
+p, 
+li {
     font-size: 1.25em;
     line-height: 1.6;
     color: #000;
@@ -84,6 +85,12 @@ a:active {
     display: block;
     margin: auto;
     width: 56%;
+}
+
+#img-full-modal {
+    display: block;
+    margin: auto;
+    width: 65%;
 }
 
 .brand-before,
@@ -188,6 +195,12 @@ a:active {
     color: #000;
 
     }
+
+ /*Article modal   */
+ .modal.large {
+    width: 80%; /* respsonsive width */
+    margin-left:-40%; /* width/2) */ 
+}
 
 /*Quotes in Testimonials*/
 
