@@ -23,8 +23,6 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:700i" rel="stylesheet" type="text/css">
     <!-- Testimonials font -->
     <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Sue+Ellen+Francisco" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quintessential" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -172,7 +170,7 @@
                   <div>
                     <h3 class="title-text text-left">Audio Clips</h3>
                       <div class="side-by-side">
-                        <a href="#" class="launch-modal" data-modal-id="modal-ornithology">
+                        <a href="#modal-ornithology" class="launch-modal" data-modal-id="modal-ornithology">
                           <span class="video-link-text">Ornithology</span>
                         </a>
                       </div>
@@ -193,7 +191,7 @@
                     <p><strong>"<u>Reflections</u>"</strong> is a one-hour CD of jazz standards and original compositions featuring Alex Murzyn on sax and Noel Melanio on piano. This instrumental collection thoughtfully illuminates styles from bebop to free, to bossa nova and ballad.</p>
 
                     <p>Read the  from Jazz Improv Magazine, Vol. 3 No. 2
-                      <a href="#" class="launch-modal" data-modal-id="modal-article">
+                      <a href="#modal-article" class="launch-modal" data-modal-id="modal-article">
                         <span class="video-link-text">review</span>
                       </a>from Jazz Improv Magazine, Vol. 3 No. 2.
                     </p>    
@@ -353,12 +351,6 @@
       </div>
     </footer>
 
-    <!-- Back to Top -->
-    <a id="back-to-top" href="#" class="btn btn-default back-to-top" role="button"
-    title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-
     <!-- Video Modals -->
 
     <!-- Alone Together -->
@@ -407,14 +399,14 @@
 
     <!-- Ornithology -->
   <div class="modal fade" id="modal-ornithology" role="dialog">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close close-audio" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Ornithology</h4>
+    <div class="modal-dialog modal-sm-audio">
+      <div class="modal-content-audio">
+        <div class="modal-header-audio">
+          <button type="button" class="close audio-off" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title audio-title">Ornithology</h4>
         </div>    
           <div class="modal-body">
-            <img src="static/img/strings.jpg"/>
+            <img class="center" src="static/img/strings.jpg"/>
             <br>
               <ul>
               <br>
@@ -428,8 +420,8 @@
               Your browser does not support the audio tag.
             </audio>            
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <div class="modal-footer-audio">
+            <button type="button" class="btn btn-default audio-off" data-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
@@ -452,16 +444,19 @@
       </div>
     </div>    
 
+    <!-- Back to Top -->
+    <a id="back-to-top" href="#" class="btn btn-default back-to-top" role="button"
+    title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
 
     <!-- jQuery -->
-    <!-- <script src="static/js/jquery.js"></script> -->
+    <script src="static/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
-    <!-- <script src="static/js/bootstrap.min.js"></script>
-    <script src="static/js/bootstrap.js"></script> -->
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.js"></script>
     <!-- My JavaScript -->
     <script src="static/js/mandy-main.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
 </body>
