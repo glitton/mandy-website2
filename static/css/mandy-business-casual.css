@@ -385,7 +385,8 @@ footer p {
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 
-.modal-header-audio .close {
+.modal-header-audio, 
+.close {
     color: #000;
     text-align: right;
     font-size: 36px;
@@ -401,10 +402,11 @@ footer p {
     margin-bottom: 30px;
 }
 
-.audio-title {
+h4.audio-title.modal-title {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
+    width: 380px;
 }
 
 img.center {

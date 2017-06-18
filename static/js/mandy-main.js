@@ -34,13 +34,15 @@ $(document).ready(function(){
         }
       )
 
-    // Stops audio when modal window is closed
-    $('.audio-off').on('click', function(){
-        var audio = $('.audio-clips').attr('src');
-          $('.audio-clips').attr('src','');
-          $('.audio-clips').attr('src', audio);
-        }
-      )
+    // Turns off audio when modal window is closed
+    $('#modal-ornithology').on('hide.bs.modal', function () {
+    // for each audio tag
+      $('audio').each(function(){
+      this.pause(); // Stop playing
+      this.currentTime = 0; // Reset time
+      });
+    })
+
 
 
     // Main Carousel
