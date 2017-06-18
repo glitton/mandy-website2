@@ -364,15 +364,17 @@ footer p {
     text-align: right;
 }
  
-.modal-header,
-.close {
-    text-align: right;
+.modal-header.close {
     margin: 0;
     font-size: 36px;
-    color: #fff;
     font-weight: 300;
     text-shadow: none;
     opacity: 1;
+}
+
+.close-youtube {
+    color: #FFFFFF;
+    font-size: 36px;
 }
 
 /*Audio modals*/ 
@@ -385,8 +387,7 @@ footer p {
     -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
 }
 
-.modal-header-audio, 
-.close {
+.modal-header-audio.close {
     color: #000;
     text-align: right;
     font-size: 36px;
