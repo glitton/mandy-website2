@@ -35,6 +35,7 @@ $(document).ready(function(){
       )
 
     // Turns off audio when modal window is closed
+    // Ornithology
     $('#modal-ornithology').on('hide.bs.modal', function () {
     // for each audio tag
       $('audio').each(function(){
@@ -42,7 +43,22 @@ $(document).ready(function(){
       this.currentTime = 0; // Reset time
       });
     })
-
+    // Stolen Moments
+    $('#modal-stolen').on('hide.bs.modal', function () {
+    // for each audio tag
+      $('audio').each(function(){
+      this.pause(); // Stop playing
+      this.currentTime = 0; // Reset time
+      });
+    })
+    // Free Peace
+    $('#modal-free').on('hide.bs.modal', function () {
+    // for each audio tag
+      $('audio').each(function(){
+      this.pause(); // Stop playing
+      this.currentTime = 0; // Reset time
+      });
+    })
 
 
     // Main Carousel
