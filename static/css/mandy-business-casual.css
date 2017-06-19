@@ -405,7 +405,7 @@ footer p {
 }
 .audio-off {
     margin: 15px 30px 30px 0;
-    color: #E92D05;
+    color: #E92D05; !important
 }
 
 .audio-title {
