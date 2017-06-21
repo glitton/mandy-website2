@@ -60,10 +60,13 @@ $(document).ready(function(){
       });
     })
 
-
     // Main Carousel
     $('.carousel').carousel({
       interval: 5000 //changes the speed
     });
+
+    // Set default volume of audio to match video
+    document.getElementById("audioStolen").volume = 0.1;
+
   
 });
