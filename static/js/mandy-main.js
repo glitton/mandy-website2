@@ -27,19 +27,20 @@ $(document).ready(function(){
     });  
 
     // Stops YouTube video when modal window is closed
+    // Alone Together
     $('.close-youtube').on('click', function(){
         var video = $('.you-tube').attr('src');
           $('.you-tube').attr('src','');
           $('.you-tube').attr('src', video);
         }
       )
-
-    $('.close-youtube1').on('click', function(){
-        var video1 = $('.you-tube').attr('src');
-          $('.you-tube').attr('src','');
-          $('.you-tube').attr('src', video1);
+    // Rainy Day
+    $('.close-rainy').on('click', function(){
+        var rainyDay = $('.rainy').attr('src');
+          $('.rainy').attr('src','');
+          $('.rainy').attr('src', rainyDay);
         }
-      )    
+      )        
 
     // Turns off audio when modal window is closed
     // Ornithology
