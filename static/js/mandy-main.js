@@ -34,6 +34,13 @@ $(document).ready(function(){
         }
       )
 
+    $('.close-youtube1').on('click', function(){
+        var video1 = $('.you-tube').attr('src');
+          $('.you-tube').attr('src','');
+          $('.you-tube').attr('src', video1);
+        }
+      )    
+
     // Turns off audio when modal window is closed
     // Ornithology
     $('#modal-ornithology').on('hide.bs.modal', function () {
