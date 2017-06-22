@@ -112,7 +112,7 @@ a:active {
     max-width: 250px;
     border-color: #999999;
 }
-/*Remove original white background*/
+
 .box {
     margin-bottom: 20px;
     padding: 30px 15px;
@@ -151,6 +151,10 @@ a:active {
     min-width: 512px;
     overflow: scroll;
 }
+/*Upcoming events*/
+/*.events {
+    border-style: groove;
+}*/
 
 #jazz-acoustic-bass,
 #sf-bay-area, 
