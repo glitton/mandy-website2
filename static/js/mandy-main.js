@@ -28,10 +28,10 @@ $(document).ready(function(){
 
     // Stops YouTube video when modal window is closed
     // Alone Together
-    $('.close-youtube').on('click', function(){
-        var video = $('.you-tube').attr('src');
-          $('.you-tube').attr('src','');
-          $('.you-tube').attr('src', video);
+    $('.close-alone').on('click', function(){
+        var video = $('.alone').attr('src');
+          $('.alone').attr('src','');
+          $('.alone').attr('src', video);
         }
       )
     // Rainy Day
