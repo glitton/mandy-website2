@@ -323,7 +323,6 @@ blockquote {
 
 .img-right {
     display: block;
-    float:right;
 }
 
 footer {
@@ -520,6 +519,7 @@ img.center {
         table-layout: fixed;
         font-size: 1.25em;
     }
+
 }
 
 @media screen and (min-width:1200px) {
