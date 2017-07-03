@@ -321,6 +321,11 @@ blockquote {
     background-position: left top;
 }
 
+.img-right {
+    display: block;
+    float:right;
+}
+
 footer {
     background: #fff;
     background-image: url('../img/newteachftbkgnd.jpg');
@@ -437,7 +442,13 @@ img.center {
 
 /*Contact center portion*/
 .contact-center {
-    padding-left: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.contact {
+    width: 80%;
+    margin: 0 auto;
 }
 
 @media screen and (min-width:768px) {
