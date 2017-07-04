@@ -152,10 +152,6 @@ a:active {
     color: #777;
 }
 
-/*.brand-carousel {
-    min-width: 512px;
-    overflow: scroll;
-}*/
 /*Upcoming events*/
 .events {
     border: 4px solid black;
@@ -187,12 +183,12 @@ a:active {
 }
 
 #email {
-    font-size: 1.75em;
-    letter-spacing: 2px;
+    font-size: 1.7em;
+    letter-spacing: 1px;
 }
 
 #voice {
-    font-size: 1.7em;
+    font-size: 1.65em;
     letter-spacing: 1px;
 }
 
