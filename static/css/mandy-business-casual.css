@@ -450,7 +450,7 @@ img.center {
 #contact-details {
     padding: 50px 0;
 }
-
+/*Make contact center in mobile*/
 .col-xs-offset-3 {
     margin-left: 15%;
 }
