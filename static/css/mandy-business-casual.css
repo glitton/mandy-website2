@@ -288,9 +288,10 @@ blockquote {
 #performance {
     margin-bottom: 50px;
     background: #fff;
-    background-image: url('../img/boxbackground1finallight.jpg');
-    background-repeat: repeat-y;
-    background-position: left top;
+    /*background-image: url('../img/boxbackground1finallight.jpg'), url('../img/boxbkgrnd1finallightflip.jpg');*/
+    background-image: url('../img/lowercontrastperfback.jpg');
+    background-repeat: repeat-y
+    background-position: left top
 }
 
 #teaching {
