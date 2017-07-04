@@ -451,6 +451,10 @@ img.center {
     padding: 50px 0;
 }
 
+.col-xs-offset-3 {
+    margin-left: 15%;
+}
+
 @media screen and (min-width:768px) {
     .brand {
         display: inherit;
